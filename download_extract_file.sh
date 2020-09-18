@@ -12,7 +12,8 @@ fileid="0BxYys69jI14kb2o4ajJwQ3FOUm8"
 filename="part1.tar.gz"
 downloading $fileid $filename
 mv $filename $folderTarFile
-tar -xvf $folderTarFile"/"$filename
+tar -xf $folderTarFile"/"$filename -c $folderDatasetFile --strip-components 1
+ls -la file.*
 
 
 fileid="0BxYys69jI14kNEt1SnNJN1Z2WWc"
