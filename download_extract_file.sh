@@ -7,6 +7,7 @@ folderTarFile="Dataset"
 folderDatasetFile=$folderTarFile"/UTKFace"
 mkdir $folderTarFile
 mkdir $folderDatasetFile
+mkdir $folderTarFile"/Output
 
 fileid="0BxYys69jI14kb2o4ajJwQ3FOUm8"
 filename="part1.tar.gz"
